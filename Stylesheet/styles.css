@@ -1,0 +1,137 @@
+.container {
+    background-color: rgb(229, 161, 78);
+}
+.quick-contact {
+    display: flex;
+    justify-content: right;
+    padding-right: 4%;
+    height: 5vh;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+}
+.quick-contact a {
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+
+}
+.main-header {
+    display: flex;
+    background-color: rgb(136, 37, 37);
+    color: rgb(229, 161, 78);
+    height: 10vh;
+    padding-left: 4%;
+    align-items: center;
+
+}
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+}
+.all-boxes {
+    border: 1px dotted white;
+    padding: 2%;
+    margin-right: 3%;
+    border-radius: 10px;
+}
+
+.all-boxes h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.all-boxes p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+button {
+    background-color: rgb(136, 37, 37);
+    color: white;
+    height: 6vh;
+    width: 7vw;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+button a:hover {
+    color: rgb(136, 37, 37);
+}
+button:hover {
+    background-color: white;
+    color: rgb(136, 37, 37);
+    border: 1px solid rgb(136, 37, 37);
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.grid-layout {
+    padding-right: 4%;
+    background-color: white;
+    padding-bottom: 10%;
+    padding-top: 5%;
+
+}
+
+.all-rows {
+    display: flex;
+    justify-content: space-around;
+}
+.all-images {
+    height: 30vh;
+    width: 22vw;
+    border-radius: 20%;
+}
+.all-contents {
+    height: 40vh;
+    width: 22vw;
+    border: 1px solid black;
+    padding: 2%;
+    margin: 2%;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10%;
+    color: white;
+    background-color: rgb(136, 37, 37);
+    -webkit-box-shadow: 1px -1px 22px 4px rgba(137,37,37,1);
+-moz-box-shadow: 1px -1px 22px 4px rgba(137,37,37,1);
+box-shadow: 1px -1px 22px 4px rgba(137,37,37,1);
+
+}
+.label {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(136, 37, 37);
+    color: rgb(229, 161, 78);
+
+}
+footer p {
+    cursor: pointer;
+    /* margin-left: 10%; */
+    display: flex;
+    justify-content: center;
+}
+footer h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.thanks {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
